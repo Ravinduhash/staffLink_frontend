@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
             </div>`
                 });
+
                 users = data.list;
 
                 document.querySelector(".vehicleSet").innerHTML = row;   
